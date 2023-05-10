@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1>Mi Portafolio</h1>
+        <p>Bienvenido a mi portafolio en línea</p>
+        <a href="#contact" class="btn">Contáctame</a>
+      </section>
+      <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="project">
+          <img src="project-1.png" alt="Proyecto 1" />
+          <h3>Proyecto 1</h3>
+          <p>Descripción del proyecto 1</p>
+        </div>
+        <div class="project">
+          <img src="project-2.png" alt="Proyecto 2" />
+          <h3>Proyecto 2</h3>
+          <p>Descripción del proyecto 2</p>
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>Habilidad 1</li>
+          <li>Habilidad 2</li>
+          <li>Habilidad 3</li>
+        </ul>
+      </section>
+      <section id="experience">
+        <h2>Experiencia</h2>
+        <ul>
+          <li>Experiencia 1</li>
+          <li>Experiencia 2</li>
+          <li>Experiencia 3</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contacto</h2>
+        <form action="submit-form.php" method="post">
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name" required />
+          <label for="email">Correo electrónico</label>
+          <input type="email" name="email" id="email" required />
+          <label for="message">Mensaje</label>
+          <textarea name="message" id="message" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Derechos reservados © 2023</p>
+    </footer>
+  </body>
+</html>
